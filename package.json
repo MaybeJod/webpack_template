@@ -7,8 +7,8 @@
     "test": "jest",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack serve --config webpack.dev.js",
-    "sync-branch": "CURRENT_BRANCH=$(git branch --show-current) && git checkout main && git pull && git checkout $CURRENT_BRANCH && git merge main && git push",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "sync-branch": "CURRENT_BRANCH=$(git branch --show-current) && git checkout main && git pull && git checkout $CURRENT_BRANCH && git merge main && git push"
   },
   "keywords": [],
   "author": "",
