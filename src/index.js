@@ -1,2 +1,3 @@
-import './assets/styles/reset.css'
-import './assets/styles/style.css'
+import { app } from "./assets/js/app";
+
+document.addEventListener("DOMContentLoaded", app);
